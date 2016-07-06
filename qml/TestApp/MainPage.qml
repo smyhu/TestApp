@@ -7,8 +7,10 @@ Page {
     Label {
         id: label
         anchors.centerIn: parent
-        text: qsTr("Hello world!")
-        visible: false
+        text: qsTr("Strona1")
+        font.pixelSize: 32
+        color: "red"
+        visible: true
     }
 
     Button{
