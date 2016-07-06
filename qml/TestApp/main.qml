@@ -10,6 +10,10 @@ PageStackWindow {
         id: mainPage
     }
 
+    SidePage {
+        id: sidePage
+    }
+
     ToolBarLayout {
         id: commonTools
         visible: true

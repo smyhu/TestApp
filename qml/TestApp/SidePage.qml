@@ -19,6 +19,6 @@ Page {
         }
         text: qsTr("Click here!")
         //onClicked: label.visible = true
-        onClicked: pageStack.push(sidePage)
+        onClicked: pageStack.pop()
     }
 }
