@@ -19,7 +19,7 @@ Page {
             top: label.bottom
             topMargin: 10
         }
-        text: qsTr("Click here!")
+        text: qsTr("Przejdź dalej")
         //onClicked: label.visible = true
         onClicked: pageStack.push(sidePage)
     }
